@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        div{
+          width: 200px;
+          height: 100px;
+          background-color: red;
+          animation-name: box;
+          animation-duration: 12s;
+          animation-iteration-count: infinite;
+          animation-delay: 2s;
+          
+
+        }
+        .box{
+            margin-left: 20px;
+            border-radius: 50px;
+        }
+        
+        @keyframes box{
+          0% {background-color: red;}
+          20% {background-color: blue;}
+          40% {background-color: green;}
+          60% {background-color: yellow;}
+          100% {background-color: aquamarine;}
+          
+        }
+        .box:hover{
+            box: shadow 4px;
+        }
+    </style>
+</head>
+<body>
+    <pre >           Circle</pre>
+    <div class="box">
+        <svg>
+            <Circle>
+        </svg>
+    </div>
+</body>
+</html>
